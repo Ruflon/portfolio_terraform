@@ -1,0 +1,24 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+*.lock.*
+
+# Ignore .tfplan files, which can contain sensitive data
+*.tfplan
+
+# Local .terraform directories
+**/.terraform/*
+
+# Crash log files
+crash.log
+
+# Exclude any .env files containing sensitive credentials
+**/.env
+**/.env.*
+
+# Temporary files
+*.log
+*.tmp
+*.bak
